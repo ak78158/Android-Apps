@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">User Registration Personal Details</string>
+    <string name="main_heading">Enter Your Personal Details</string>
+    <string name="name">Enter your name here ... </string>
+    <string name="email">Enter your email here ... </string>
+    <string name="phoneno">Enter your phone no. here ... </string>
+    <string name="dob">Click here to select dob </string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="btn1">Register</string>
+    <string name="btn2">Exit</string>
+</resources>

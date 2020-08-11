@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:paddingLeft="20sp"
+    android:paddingRight="20sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/main_heading"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textWebEmailAddress"
+        android:hint="@string/email" />
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/phoneno" />
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="@string/dob"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn1"
+        android:layout_gravity="center"
+        android:onClick="onRegister"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2"
+        android:layout_gravity="center"
+        android:onClick="onCancel"/>
+
+
+</LinearLayout>
